@@ -1,0 +1,33 @@
+.platform-title {
+    display: none;
+}
+
+.section-title {
+    font-size: 2em;
+}
+
+#top-text::after {
+    content: "3";
+}
+
+section {
+    justify-content: space-between;
+
+    div {
+        flex-grow: 1;
+        width: 100%;
+    }
+}
+
+.top {
+    width: 100%;
+    flex-direction: column-reverse;
+
+    div:nth-child(-n+2) {
+        display: none;
+    }
+}
+
+.first, .second {
+    flex-wrap: wrap;
+}
